@@ -1,4 +1,3 @@
----
 
 # Housing-ICP: Land Tokenization on the Internet Computer Protocol (ICP)
 
