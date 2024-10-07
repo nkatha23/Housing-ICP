@@ -105,6 +105,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For questions, suggestions, or collaborations, please contact:
 - **Project Lead**: Project Leader (projectleader@gmail.com)
-- **GitHub**: [https://github.com/yourusername](https://github.com/nkatha23)
+- **GitHub**: [https://github.com/nkatha23](https://github.com/nkatha23)
 
 ---
