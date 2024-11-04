@@ -1,0 +1,17 @@
+{
+  "name": "housing-icp",
+  "version": "1.0.0",
+  "description": "- [Introduction](#introduction)\r - [Objectives](#objectives)\r - [Project Structure](#project-structure)\r - [Technology Stack](#technology-stack)\r - [Features](#features)\r - [Installation](#installation)\r - [Usage](#usage)\r - [Project Roadmap](#project-roadmap)\r - [Contributing](#contributing)\r - [License](#license)\r - [Contact](#contact)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/auth-client": "^2.1.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

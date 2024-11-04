@@ -27,13 +27,18 @@ The **Housing-ICP** project is an innovative approach to the real estate market 
 ```
 Housing-ICP/
 ├── src/
-│   ├── contracts/         # Smart contracts for land tokenization
-│   ├── frontend/          # User interface code
-│   └── backend/           # Backend logic and ICP integration
-├── docs/                  # Documentation
-├── scripts/               # Deployment and automation scripts
-├── tests/                 # Unit and integration tests
-└── README.md
+│   ├── components/
+│   │   ├── Tokenization.js
+│   │   └── OtherComponent.js (add more as needed)
+│   ├── housing_frontend/
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   └── style.css (if needed)
+│   └── housing_backend/
+│       └── main.mo
+├── package.json
+└── webpack.config.js (if using Webpack)
+
 ```
 
 ## Technology Stack

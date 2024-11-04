@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background for the whole page */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4b0082; /* Dark purple for header */
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4b0082; /* Dark purple for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #483d8b; /* Darker indigo */
+    transform: scale(1.05);
+}
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4b0082;
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%; /* Full width */
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 0.9em;
+}
+
+input:focus {
+    border-color: #4b0082;
+    box-shadow: 0 0 5px rgba(75, 0, 130, 0.5);
+    outline: none;
+}
+
+#property-list, #owned-tokens {
+    background-color: #fff; /* White background for boxes */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+#property-list div, #owned-tokens div {
+    padding: 8px;
+    margin-bottom: 8px; /* Space between items */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+#property-list div:hover, #owned-tokens div:hover {
+    background-color: rgba(75, 0, 130, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}

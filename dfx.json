@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "canisters": {
+        "housing_backend": {
+            "type": "motoko",
+            "source": ["src/housing_backend"]
+        },
+        "housing-frontend": {
+            "type": "assets",
+            "source": ["src/housing-frontend"]
+        }
+    },
+    "pull_dependencies": {
+        "internet_identity": {
+            "type": "pull",
+            "canister_id": "ryjl3-tyaaa-aaaaa-aaaba-cai"
+        }
+    }
+}
